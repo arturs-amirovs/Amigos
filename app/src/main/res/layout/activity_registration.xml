@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.artursamirovs.amigos.RegistrationActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/registration_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="username"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:padding="5dp"/>
+
+    <EditText
+        android:id="@+id/registration_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:padding="5dp"/>
+
+    <EditText
+        android:id="@+id/registration_first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:padding="5dp"/>
+
+    <EditText
+        android:id="@+id/registration_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:padding="5dp"/>
+
+    <Button
+        android:id="@+id/buttonRegistration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Create new account"/>
+
+
+</LinearLayout>
